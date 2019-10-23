@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Mattias Franzén">
+    <meta name="Keywords" content="Pizza, Ost, Växjö, Mat, Snabbmat, Kebab, Twitter, Facebook, Youtube">
+    <meta name="Description" content="Kontakta oss på Pizzabolaget i Växjö. Vi kör även ut din mat.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzabolaget, avhämtning och utkörning - Kontakt</title>
+</head>
+<body id="body">
+
+<header><img id="header-pic" src="Images/PIZZAHEADER.jpg" alt="Pizzaheader"></header>      
+
+<nav id="page-nav">
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger"/>   
+
+    <ul> 
+        <li><a href="index.html">Startsida</a></li>
+        <li id="page-nav-active"><a href="contact.html">Kontakt</a></li>
+        <li><a href="gallery.html">Galleri</a></li>
+        <li><a href="menu.html">Meny</a></li>
+    </ul>
+</nav>
+
+<h1 id="h1">Kontakta oss på Pizzabolaget.</h1>
+
+
+<form id="contact" action="mailto:mattiasfranzen_@hotmail.com" method="POST">
+    <label style="font-size: 25px;" for="name">Namn:</label><br>
+    <input id="name" type="text" name="name" placeholder="Namn"/><br>
+    <label style="font-size: 25px;" for="email">Email:</label><br>
+    <input id="email" required="required" type="email" name="email" placeholder="Email.."/><br>
+    <label style="font-size: 25px;" for="message">Meddelande:</label><br>
+    <textarea id="message" required="required" name="message" cols="25" rows="5"></textarea><br>
+    <input type="submit" name="submit" value="submit"/><br>
+</form><br>
+
+<footer id="footer">
+    <div id="container-footer">
+        <div class="col-4" id="footer-left">
+            <a href="https://www.facebook.com" target="_blank"><img src="/Images/facebook.jpg" alt="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="/Images/twitter.jpg" alt="Twitter"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="/Images/youtube.jpg" alt="Youtube"></a>
+        </div>
+    
+    <div class="col-4" id="footer-middle">
+        <p>
+            <b>0470-12345</b><br>
+            Växjövägen 19, Växjö
+        </p>
+    </div>
+    
+    <div class="col-4" id="footer-right">
+        <div class="gmap_canvas"><iframe width="305" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=V%C3%A4xj%C3%B6&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe></div>
+    </div>
+    </div>
+</footer>
+    
+</body>
+</html>
